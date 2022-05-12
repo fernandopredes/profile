@@ -1,11 +1,14 @@
 body{
   background-color: #7286A0;
-  background-image:url('images/1711593.gif');
-  background-repeat:no-repeat;
-  background-size:100%;
-  background-position:center;
+  background: url('images/1711593.gif') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-family: 'Roboto Flex', sans-serif;
   text-align: center;
+
+
 }
 
 .container{
@@ -70,12 +73,5 @@ ul a:hover{
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 350px;
-  }
-}
-
-@media only screen and (max-width: 1400px) {
-  /* For a screen < 960px, this CSS will be read */
-  body{
-    background-image: none;
   }
 }
